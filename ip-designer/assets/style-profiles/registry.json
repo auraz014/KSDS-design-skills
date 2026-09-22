@@ -1,0 +1,32 @@
+{
+  "registry_version": "1.1",
+  "styles": {
+    "brand-mascot": {
+      "display_name": "品牌吉祥物",
+      "status": "active",
+      "profile_schema": "brand-mascot-profile-v1",
+      "profile_path": "brand_mascot_style_profile_v1.json",
+      "style_bible_path": "../../references/style-bibles/品牌吉祥物_Style_Bible_v1.0.md",
+      "profile_style_id": "brand_mascot_v1",
+      "profile_sha256": "63ac2ecff2b1636ff637d8650ce827c7b33e891138b681e084fd56860b31789f",
+      "style_bible_sha256": "ba482e210b8b19474d54a0da9c37f0424620daf454034edbf74b5b6cfb033dfc",
+      "rules_authority": "profile",
+      "method_and_explanation_authority": "style_bible",
+      "rule_edit_policy": "read_only"
+    },
+    "brand-mascot-ai-digital-life": {
+      "display_name": "品牌吉祥物 · AI 科技数字生命",
+      "status": "active",
+      "parent_style_key": "brand-mascot",
+      "profile_schema": "native-published-v1",
+      "profile_path": "brand_mascot_ai_digital_life_v1.json",
+      "style_bible_path": "../../references/style-bibles/品牌吉祥物_AI科技数字生命_Style_Bible_v1.0.md",
+      "profile_style_id": "brand-mascot-ai-digital-life",
+      "profile_sha256": "b7bee540dd3ed2c09fb9fdc1b448030da86b04bd9db27faaf742f980624787d2",
+      "style_bible_sha256": "ed265a236ff616f8af8c5a8d08b41c74e41e543a8c87a8c4e12265fe10f20b88",
+      "rules_authority": "profile",
+      "method_and_explanation_authority": "style_bible",
+      "rule_edit_policy": "read_only"
+    }
+  }
+}

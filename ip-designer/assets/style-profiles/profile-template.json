@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "style_id": "replace-me",
+  "name": "Replace me",
+  "category": "",
+  "version": "0.1.0",
+  "status": "draft",
+  "source_summary": {
+    "reference_count": 0,
+    "analysis_date": null,
+    "notes": ""
+  },
+  "rules": {
+    "visual_language": [],
+    "shape": [],
+    "proportion": [],
+    "silhouette": [],
+    "face_expression": [],
+    "color": [],
+    "material_rendering": [],
+    "detail": [],
+    "commercial_application": [],
+    "avoid": []
+  },
+  "prompt_template": {
+    "required_slots": [],
+    "ordering": [],
+    "negative_constraints": []
+  }
+}

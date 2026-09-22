@@ -1,0 +1,555 @@
+{
+  "schema_version": "1.0",
+  "style_id": "brand-mascot-ai-digital-life",
+  "name": "品牌吉祥物 · AI 科技数字生命",
+  "category": "品牌吉祥物 / AI 科技数字生命",
+  "version": "1.0.0",
+  "status": "published",
+  "parent_style_id": "brand_mascot_v1",
+  "inheritance": {
+    "base": "Inherit the parent brand-mascot principles for commercial friendliness, fast recognition, extensibility, intentional anatomy and artifact rejection.",
+    "child_precedence": "Use this child profile for AI-era material, light, color, silhouette, motion and product-state behavior.",
+    "preserved_user_preferences": [
+      "roughly_65_percent_no_sclera_simple_eyes_and_35_percent_graphic_sclera_eyes_among_conventional_eyed_characters",
+      "no_eye_highlights",
+      "do_not_repeat_one_face_or_limb_template_across_directions",
+      "do_not_bind_proposal_order_to_recurring_morphology_roles"
+    ]
+  },
+  "source_summary": {
+    "reference_count": 40,
+    "original_reference_count": 28,
+    "incremental_unique_reference_count": 12,
+    "analysis_date": "2026-07-29",
+    "notes": "human-reviewed: yes; the user supplied an expanded coherent set containing the original 28 references plus 12 hash-distinct additions. Faceless additions are material-only evidence and are not selectable character archetypes. The usable additions broaden material behavior, single functional facial focal organs, low-frequency graphically elongated unjointed limbs, coherent shell-and-core systems and restrained near-white palettes. Reference-observed rules and professional designer-synthesis rules are distinguished in each evidence field. Rules capture high-level, non-exclusive principles and must not be used to copy any source character."
+  },
+  "rules": {
+    "visual_language": [
+      {
+        "id": "visual-01",
+        "statement": "Express AI as a warm, responsive digital life rather than a cold machine.",
+        "strength": "dominant",
+        "evidence": "Friendly, low-aggression character treatment appears across all 40 references.",
+        "confidence": 0.98
+      },
+      {
+        "id": "visual-02",
+        "statement": "Create future feeling primarily through volumetric light, internal color, soft material and responsive motion, not hardware detailing.",
+        "strength": "dominant",
+        "evidence": "Approximately 34 of 40 references use glow, translucency, gradient volume or soft-state behavior while hard mechanical detail remains rare.",
+        "confidence": 0.94
+      },
+      {
+        "id": "visual-03",
+        "statement": "Keep the character compact, quickly readable and emotionally approachable at small interface sizes.",
+        "strength": "dominant",
+        "evidence": "The character references resolve into one simple mass with sparse facial information; faceless samples contribute material evidence only.",
+        "confidence": 0.97
+      },
+      {
+        "id": "visual-04",
+        "statement": "Use hovering, breathing, elastic deformation or light-state change as optional signs that the digital life is active.",
+        "strength": "supporting",
+        "evidence": "Floating shadows, lifted poses, squash states and light changes recur across the set.",
+        "confidence": 0.84
+      },
+      {
+        "id": "visual-05",
+        "statement": "Treat the character as a behavior and state system, not only a static mascot image.",
+        "strength": "dominant",
+        "evidence": "Professional designer synthesis for real AI products: current first-party AI design guidance emphasizes visible processing, concrete feedback and state clarity.",
+        "confidence": 0.94
+      },
+      {
+        "id": "visual-06",
+        "statement": "Keep the identity symbolically nonhuman and visibly AI while allowing warmth and companionship.",
+        "strength": "dominant",
+        "evidence": "Professional designer synthesis: responsible agent design requires clear differentiation from real people to avoid deceptive anthropomorphism.",
+        "confidence": 0.94
+      },
+      {
+        "id": "visual-07",
+        "statement": "Make motion directional, purposeful and calm; every animation must communicate input, processing, output, confirmation or recovery.",
+        "strength": "dominant",
+        "evidence": "Professional designer synthesis: current AI visual systems use intentional motion and internal activity to build understanding and trust.",
+        "confidence": 0.93
+      },
+      {
+        "id": "visual-08",
+        "statement": "Use faceless ambient references only to learn translucency, internal light, particles, fog and soft volume; every generated mascot direction must retain a readable face or facial focal organ.",
+        "strength": "dominant",
+        "evidence": "Three additions offer useful material studies without enough facial character information to serve as standalone mascot archetypes.",
+        "confidence": 0.98
+      }
+    ],
+    "shape": [
+      {
+        "id": "shape-01",
+        "statement": "Build the character around one dominant continuous soft volume; integrate the face or functional focal organ and most anatomy into that volume.",
+        "strength": "dominant",
+        "evidence": "More than three quarters of the references use a fused body-and-expression mass.",
+        "confidence": 0.94
+      },
+      {
+        "id": "shape-02",
+        "statement": "Choose freely among organic data blobs, light-core containers, compact soft helpers, digitally translated animals and softly anthropomorphized functional devices; do not reduce the substyle to one geometric primitive.",
+        "strength": "dominant",
+        "evidence": "The expanded character set includes irregular clouds and droplets, spheres and capsules, compact humanoids, simplified animals and one-lens device-derived figures.",
+        "confidence": 0.92
+      },
+      {
+        "id": "shape-03",
+        "statement": "Use two to five soft contour events such as lobes, notches, bulges, crests or tapered ends to create identity.",
+        "strength": "supporting",
+        "evidence": "Irregular but low-detail contour modulation is a repeated source of differentiation.",
+        "confidence": 0.86
+      },
+      {
+        "id": "shape-04",
+        "statement": "Hide, merge or minimize limbs by default; introduce only the simplified limbs required for function or readable action.",
+        "strength": "dominant",
+        "evidence": "Most references are limbless or use very small integrated appendages.",
+        "confidence": 0.91
+      },
+      {
+        "id": "shape-05",
+        "statement": "For animal-derived directions, retain two or three species cues while replacing realistic anatomy with the same soft digital-life volume logic.",
+        "strength": "optional",
+        "evidence": "Several references translate dogs, cats or creature cues into soft gradient bodies without detailed anatomy.",
+        "confidence": 0.82
+      },
+      {
+        "id": "shape-06",
+        "statement": "Do not use a faceless ambient mass as a generated mascot structure; borrow only its material, internal-light and atmospheric-volume behavior.",
+        "strength": "avoid",
+        "evidence": "User review explicitly limits the faceless additions to material reference.",
+        "confidence": 1.0
+      },
+      {
+        "id": "shape-07",
+        "statement": "Allow a softly anthropomorphized functional device built around one sensor, lens, speaker, screen or input-output element, while suppressing secondary hardware detail.",
+        "strength": "optional",
+        "evidence": "Several additions use a single lens, dome, laptop or microphone relationship to clarify an assistant role without adopting mecha complexity.",
+        "confidence": 0.84
+      },
+      {
+        "id": "shape-08",
+        "statement": "Allow one pair of graphically elongated, continuous and unjointed limbs only as a low-frequency concept-led exception when role, action or silhouette clearly benefits.",
+        "strength": "optional",
+        "evidence": "One of 40 references demonstrates a convincing tall long-limbed device-derived figure without realistic anatomy, so the treatment should remain rare.",
+        "confidence": 0.84
+      }
+    ],
+    "proportion": [
+      {
+        "id": "proportion-01",
+        "statement": "Let the main body occupy most of the character; keep the face compact and appendages visually secondary.",
+        "strength": "dominant",
+        "evidence": "This proportion hierarchy appears consistently across the sample.",
+        "confidence": 0.96
+      },
+      {
+        "id": "proportion-02",
+        "statement": "Prefer compact, squat or softly vertical proportions over tall human anatomy.",
+        "strength": "dominant",
+        "evidence": "A strong majority of the 40 references use compact low-center-of-gravity or floating masses.",
+        "confidence": 0.93
+      },
+      {
+        "id": "proportion-03",
+        "statement": "When using a humanoid helper structure, keep the head-body boundary soft and the limbs short, rounded and unjointed.",
+        "strength": "optional",
+        "evidence": "The few humanoid references remain toy-like and avoid visible joints.",
+        "confidence": 0.86
+      },
+      {
+        "id": "proportion-04",
+        "statement": "Permit a tall, narrow or long-legged proportion only as a low-frequency concept-led exception, using continuous graphic limbs and a strongly simplified functional head or body.",
+        "strength": "optional",
+        "evidence": "One new reference uses a wide sensor head and long uninterrupted limbs to create strong assistant recognition without realistic anatomy.",
+        "confidence": 0.78
+      }
+    ],
+    "silhouette": [
+      {
+        "id": "silhouette-01",
+        "statement": "Maintain a smooth, low-aggression outer contour that reads clearly before material and gradient details.",
+        "strength": "dominant",
+        "evidence": "Every reference uses rounded silhouette language with few or no sharp structural corners.",
+        "confidence": 0.98
+      },
+      {
+        "id": "silhouette-02",
+        "statement": "Give each concept one primary silhouette hook such as a notch, soft horn, side lobe, crown, tail end, face window or light core.",
+        "strength": "dominant",
+        "evidence": "Distinctive examples rely on one readable contour or embedded-volume event rather than many details.",
+        "confidence": 0.9
+      },
+      {
+        "id": "silhouette-03",
+        "statement": "Allow subtle asymmetry, lean and elastic deformation so the form feels alive rather than perfectly geometric.",
+        "strength": "supporting",
+        "evidence": "Organic imbalance and pose-driven deformation recur throughout the reference set.",
+        "confidence": 0.87
+      },
+      {
+        "id": "silhouette-04",
+        "statement": "Allow softened points, star-like lobes or broad rectangular frames as primary contour hooks; allow an elongated appendage only at low frequency, while keeping all edges soft and low-aggression.",
+        "strength": "optional",
+        "evidence": "The additions include rounded star silhouettes, a broad sensor head and elongated continuous limbs that remain friendly through soft edge treatment.",
+        "confidence": 0.83
+      }
+    ],
+    "face_expression": [
+      {
+        "id": "face-01",
+        "statement": "Give every generated mascot a readable face or facial focal organ, usually constructed from two to four simple graphic marks with interface-like clarity.",
+        "strength": "dominant",
+        "evidence": "Most character references use sparse facial grammar; faceless samples are retained only as material evidence.",
+        "confidence": 0.98
+      },
+      {
+        "id": "face-02",
+        "statement": "For characters that use a conventional pair of eyes, inherit the parent canonical facial IDs and newest-eight usage ledger; use roughly 65 percent no-sclera and 35 percent graphic sclera as a soft long-run tendency rather than a fixed batch split or a reason to reject the best-fitting face.",
+        "strength": "dominant",
+        "evidence": "Minimal no-sclera faces dominate the set while a substantial secondary group uses bold graphic sclera.",
+        "confidence": 0.9
+      },
+      {
+        "id": "face-03",
+        "statement": "Keep eyes matte and free of catchlights, white reflection dots and crystal-eye effects even when the body is glossy or translucent.",
+        "strength": "dominant",
+        "evidence": "This preserves the established parent-style user preference while remaining compatible with the set's many flat glyph faces.",
+        "confidence": 0.95
+      },
+      {
+        "id": "face-04",
+        "statement": "Let expression combine face changes with body squash, tilt, appendage motion or light-state change.",
+        "strength": "supporting",
+        "evidence": "Expression sheets in the set use deformation and action as well as eye and mouth changes.",
+        "confidence": 0.88
+      },
+      {
+        "id": "face-05",
+        "statement": "Assign one distinct parent canonical eye ID and complete facial signature to each conventional-face direction, apply the parent's within-set high-frequency caps, use recent history only as a soft tie-breaker, and do not reuse one eye-and-mouth mold across a multi-direction set.",
+        "strength": "dominant",
+        "evidence": "The reference set demonstrates multiple face families, and prior user testing explicitly rejected repetitive facial templates.",
+        "confidence": 0.98
+      },
+      {
+        "id": "face-06",
+        "statement": "As a low-frequency facial branch, allow one lens-like sensor or a pair of nonstandard state windows to act as the readable face; do not use a completely faceless or light-core-only character.",
+        "strength": "optional",
+        "evidence": "The additions include a one-lens device-derived figure and an animal helper whose star-like state windows replace ordinary eyes; user review excludes fully faceless character outputs.",
+        "confidence": 0.88
+      }
+    ],
+    "color": [
+      {
+        "id": "color-01",
+        "statement": "Use blue, cyan, lavender, violet and pink as a high-frequency digital-light range, but treat them as evidence rather than mandatory colors.",
+        "strength": "supporting",
+        "evidence": "Cool luminous colors appear in approximately 34 of 40 references.",
+        "confidence": 0.94
+      },
+      {
+        "id": "color-02",
+        "statement": "Allow yellow, warm orange, green and coral as valid primary or state colors when they better fit the product personality.",
+        "strength": "optional",
+        "evidence": "Multiple references use yellow, green, orange or coral successfully within the same soft digital-life aesthetic.",
+        "confidence": 0.85
+      },
+      {
+        "id": "color-03",
+        "statement": "Limit one character to one dominant color family plus one neighboring or contrasting internal light color, usually two to three principal hues.",
+        "strength": "dominant",
+        "evidence": "Most gradient references use controlled transitions rather than full-spectrum rainbow treatment.",
+        "confidence": 0.89
+      },
+      {
+        "id": "color-04",
+        "statement": "Make gradients feel volumetric and internal to the material, not printed on the surface.",
+        "strength": "dominant",
+        "evidence": "Internal color fog and subsurface transitions are the most consistent color treatment in the set.",
+        "confidence": 0.94
+      },
+      {
+        "id": "color-05",
+        "statement": "Do not default every proposal to the same blue-purple-pink gradient; derive color from role, brand, state logic or material concept.",
+        "strength": "dominant",
+        "evidence": "The set contains successful monochrome, white, green, yellow and warm-color alternatives, and diversity is a stated product requirement.",
+        "confidence": 0.96
+      },
+      {
+        "id": "color-06",
+        "statement": "Allow a near-white, clear or softly monochrome body with one concentrated internal or facial state color as a restrained technology palette.",
+        "strength": "optional",
+        "evidence": "Several additions use clear, near-white or single-color bodies with one cyan, green, red or dark focal cue.",
+        "confidence": 0.86
+      }
+    ],
+    "material_rendering": [
+      {
+        "id": "material-01",
+        "statement": "Prefer translucent soft gel, frosted glass, milky resin, silicone, inflated membrane or soft subsurface plastic.",
+        "strength": "dominant",
+        "evidence": "Soft translucent or volumetric material appears in approximately 34 of 40 references.",
+        "confidence": 0.95
+      },
+      {
+        "id": "material-02",
+        "statement": "Use edge transmission, internal glow, colored haze and gentle subsurface scattering to describe volume.",
+        "strength": "dominant",
+        "evidence": "These effects repeatedly create the set's future feeling without mechanical detail.",
+        "confidence": 0.93
+      },
+      {
+        "id": "material-03",
+        "statement": "Keep body highlights soft, broad and restrained; preserve clean edges and avoid mirror-like plastic.",
+        "strength": "dominant",
+        "evidence": "The strongest references balance gloss with soft diffusion and readable silhouettes.",
+        "confidence": 0.9
+      },
+      {
+        "id": "material-04",
+        "statement": "Allow soft matte, powdery or short-fuzz rendering as an optional companion-oriented branch.",
+        "strength": "optional",
+        "evidence": "A small number of references use fuzzy or matte surfaces while maintaining the same compact digital-life logic.",
+        "confidence": 0.75
+      },
+      {
+        "id": "material-05",
+        "statement": "Use one coherent material system per character. A clear or milky shell plus one inner core counts as one system when the layers share a controlled light and color logic; do not mix unrelated glass, fur, chrome, jelly and fabric.",
+        "strength": "dominant",
+        "evidence": "Individual references remain materially coherent even when the overall set is varied, and several additions use a controlled transparent-shell-and-inner-core relationship.",
+        "confidence": 0.92
+      },
+      {
+        "id": "material-06",
+        "statement": "Allow a fine luminous-particle, colored-fog or diffuse atmospheric interior inside a clean simple boundary, keeping density restrained and silhouette clarity intact.",
+        "strength": "optional",
+        "evidence": "Two additions use particulate or clouded internal volume to suggest computation without adding surface decoration.",
+        "confidence": 0.81
+      }
+    ],
+    "detail": [
+      {
+        "id": "detail-01",
+        "statement": "Use one primary identity or function hook and at most one supporting detail.",
+        "strength": "dominant",
+        "evidence": "Memorable references use a single crest, face window, light core, notch, headphone, base or accessory rather than layered decoration.",
+        "confidence": 0.91
+      },
+      {
+        "id": "detail-02",
+        "statement": "Add one product-function prop or interaction object such as a headset, projection base, state band, laptop, microphone or interface bubble only when it explains the assistant's role; prefer using it in an application view rather than making the core identity dependent on it.",
+        "strength": "optional",
+        "evidence": "Functional props appear in a minority of references, including several additions, and are effective when directly tied to product behavior.",
+        "confidence": 0.82
+      },
+      {
+        "id": "detail-03",
+        "statement": "Keep surface detail sparse and let silhouette, material and the face or functional focal system carry recognition.",
+        "strength": "dominant",
+        "evidence": "All references avoid dense surface ornament.",
+        "confidence": 0.97
+      },
+      {
+        "id": "detail-04",
+        "statement": "Separate invariant identity from an adaptive layer: keep silhouette logic, face or focal grammar and the primary hook fixed while allowing state color, internal pattern or one functional prop to change.",
+        "strength": "supporting",
+        "evidence": "Professional designer synthesis for personalization and cross-device adaptation without identity drift.",
+        "confidence": 0.9
+      }
+    ],
+    "commercial_application": [
+      {
+        "id": "commercial-01",
+        "statement": "Design a state system for idle, listening, thinking, executing, success and error using expression, deformation and light-color behavior.",
+        "strength": "dominant",
+        "evidence": "The set repeatedly connects character emotion with assistant and interface states.",
+        "confidence": 0.9
+      },
+      {
+        "id": "commercial-02",
+        "statement": "Preserve recognition across avatar, chat bubble, onboarding scene, loading state, full-body illustration and motion asset.",
+        "strength": "dominant",
+        "evidence": "The simple mass-and-expression construction supports the intended AI product contexts.",
+        "confidence": 0.91
+      },
+      {
+        "id": "commercial-03",
+        "statement": "For smart hardware, allow a projection base, face window, light band or sleep posture that maps clearly to device behavior.",
+        "strength": "optional",
+        "evidence": "Several assistant and device-oriented references use one hardware-linked visual cue.",
+        "confidence": 0.84
+      },
+      {
+        "id": "commercial-04",
+        "statement": "Keep the form manufacturable as soft vinyl, silicone, plush, desktop figure or a simplified device-screen animation.",
+        "strength": "supporting",
+        "evidence": "Rounded continuous volumes and sparse details are compatible with physical and motion extensions.",
+        "confidence": 0.87
+      },
+      {
+        "id": "commercial-05",
+        "statement": "Define a coherent state grammar for idle, listening, understanding, thinking, acting, success, uncertainty, error and recovery.",
+        "strength": "dominant",
+        "evidence": "Professional designer synthesis: AI products need specific processing and failure feedback so users can build an accurate mental model.",
+        "confidence": 0.96
+      },
+      {
+        "id": "commercial-06",
+        "statement": "Prepare full-character, avatar, micro-mark, dark-mode, light-mode, reduced-motion, low-transparency and flat-color variants.",
+        "strength": "dominant",
+        "evidence": "Professional designer synthesis for cross-device, cross-context and accessible deployment.",
+        "confidence": 0.94
+      },
+      {
+        "id": "commercial-07",
+        "statement": "Pair important visual states with clear text, sound or interface feedback; do not make confirmation, error or risk semantics depend on the character alone.",
+        "strength": "dominant",
+        "evidence": "Professional designer synthesis from multimodal assistant and generative-AI guidance.",
+        "confidence": 0.95
+      },
+      {
+        "id": "commercial-08",
+        "statement": "Keep workplace-agent behavior calm and respectful of focus; reserve stronger motion and color for moments that truly need user attention.",
+        "strength": "supporting",
+        "evidence": "Professional designer synthesis: deliberate motion and restrained attention are important to trust in productivity contexts.",
+        "confidence": 0.91
+      },
+      {
+        "id": "commercial-09",
+        "statement": "Validate the role with one clear interaction scene or prop after the core character is established; the same identity must still read without the prop.",
+        "strength": "supporting",
+        "evidence": "New references use a laptop, microphone or presentation gesture to clarify office and assistant roles while retaining a simple core figure.",
+        "confidence": 0.84
+      }
+    ],
+    "avoid": [
+      {
+        "id": "avoid-01",
+        "statement": "Avoid hard-surface mecha, exposed joints, robot armor and complex mechanical parts.",
+        "strength": "avoid",
+        "evidence": "These elements are nearly absent from the reference set and conflict with its warm digital-life positioning.",
+        "confidence": 0.97
+      },
+      {
+        "id": "avoid-02",
+        "statement": "Avoid using circuit boards, chip patterns, HUD overlays and random neon lines as the main proof of technology.",
+        "strength": "avoid",
+        "evidence": "The set communicates technology through material and state rather than surface graphics.",
+        "confidence": 0.94
+      },
+      {
+        "id": "avoid-03",
+        "statement": "Avoid producing a multi-direction set made of the same rounded gradient blob with only color or ear changes.",
+        "strength": "avoid",
+        "evidence": "The source set contains several morphology families, and prior user testing explicitly rejected repetitive structures.",
+        "confidence": 0.99
+      },
+      {
+        "id": "avoid-04",
+        "statement": "Avoid realistic human anatomy, realistic pet proportions and detailed paws, joints or musculature.",
+        "strength": "avoid",
+        "evidence": "The references consistently simplify anatomy into toy-like or fused volumes.",
+        "confidence": 0.95
+      },
+      {
+        "id": "avoid-05",
+        "statement": "Avoid eye catchlights, crystal eyes, excessive bloom, mirror gloss and material rendering that destroys facial or silhouette clarity.",
+        "strength": "avoid",
+        "evidence": "This preserves established user preferences and the set's strongest interface-like face treatment.",
+        "confidence": 0.96
+      },
+      {
+        "id": "avoid-06",
+        "statement": "Avoid copying any source character's exact contour, face, accessory, logo or branded composition.",
+        "strength": "avoid",
+        "evidence": "The reference set is used only to extract high-level non-exclusive design principles.",
+        "confidence": 1.0
+      },
+      {
+        "id": "avoid-07",
+        "statement": "Avoid photoreal human faces, human identity cues or naming that can make an AI agent appear to be a real person.",
+        "strength": "avoid",
+        "evidence": "Professional designer synthesis from responsible agent-design guidance.",
+        "confidence": 0.95
+      },
+      {
+        "id": "avoid-08",
+        "statement": "Avoid manipulative sadness, crying or guilt performance for system errors; communicate limits and recovery calmly.",
+        "strength": "avoid",
+        "evidence": "Professional designer synthesis for trustworthy assistant behavior.",
+        "confidence": 0.94
+      },
+      {
+        "id": "avoid-09",
+        "statement": "Avoid decorative animation with no semantic start, process or end, and avoid identities that fail when motion, translucency or glow is removed.",
+        "strength": "avoid",
+        "evidence": "Professional designer synthesis for purposeful motion, reduced-motion support and production resilience.",
+        "confidence": 0.93
+      },
+      {
+        "id": "avoid-10",
+        "statement": "Do not generate a faceless gradient blob, light-core-only form or ambient mass as a finished mascot; use those references only for material and internal-light treatment.",
+        "strength": "avoid",
+        "evidence": "User review explicitly restricts faceless references to material learning.",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "prompt_template": {
+    "required_slots": [
+      "ai_product_role",
+      "digital_life_archetype",
+      "personality",
+      "dominant_silhouette_and_memory_hook",
+      "proportion_and_limb_treatment",
+      "face_or_focal_grammar_and_state",
+      "material_and_internal_light_behavior",
+      "color_logic",
+      "motion_or_deformation_behavior",
+      "state_behavior_grammar",
+      "cross_context_fallbacks",
+      "trust_and_ai_identity_cue",
+      "application_and_render_framing"
+    ],
+    "ordering": [
+      "ai_product_role",
+      "digital_life_archetype",
+      "personality",
+      "dominant_silhouette_and_memory_hook",
+      "proportion_and_limb_treatment",
+      "face_or_focal_grammar_and_state",
+      "material_and_internal_light_behavior",
+      "color_logic",
+      "motion_or_deformation_behavior",
+      "state_behavior_grammar",
+      "cross_context_fallbacks",
+      "trust_and_ai_identity_cue",
+      "application_and_render_framing"
+    ],
+    "negative_constraints": [
+      "no_hard_surface_mecha_or_robot_armor",
+      "no_exposed_joints_or_realistic_anatomy",
+      "no_circuit_board_or_hud_decoration_as_style_substitute",
+      "no_repeated_generic_gradient_blob_template",
+      "no_default_blue_purple_gradient_for_every_direction",
+      "no_eye_highlights_or_crystal_eyes",
+      "no_excessive_bloom_or_mirror_plastic",
+      "no_complex_clothing_or_unmotivated_accessories",
+      "no_photoreal_human_or_deceptive_human_identity",
+      "no_manipulative_crying_or_guilt_error_state",
+      "no_decorative_motion_without_state_meaning",
+      "no_identity_that_depends_only_on_glow_transparency_or_animation",
+      "no_source_character_copying",
+      "no_malformed_or_melting_anatomy",
+      "no_faceless_gradient_blob_light_core_only_or_ambient_mass_as_character",
+      "no_cream_beige_ivory_warm_yellow_sepia_or_dirty_off_white_background",
+      "no_warm_background_color_cast_unless_explicitly_requested",
+      "no_muddy_gray_or_visibly_medium_dark_gray_default_background"
+    ]
+  }
+}

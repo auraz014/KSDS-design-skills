@@ -1,0 +1,726 @@
+{
+  "style_id": "brand_mascot_v1",
+  "version": "1.0",
+  "source": {
+    "image_count": 52,
+    "effective_image_count": 52,
+    "exact_duplicate_groups": [],
+    "scope_note": "The complete dataset represents youthful contemporary Korean-context toy-like mascot aesthetics and includes brand mascots, independent character IP, character families, object personification, and branded presentations.",
+    "confidence": {
+      "rendering_style": "high",
+      "shape_language": "high",
+      "facial_language": "high",
+      "brand_strategy": "medium-low",
+      "application_system": "low"
+    }
+  },
+  "design_intent": {
+    "primary": "Create an instantly readable, toy-like original character with a simple dominant form, one strong visual hook, and a clear personality.",
+    "principles": [
+      "whole_character_concept_before_component_assembly",
+      "silhouette_before_detail",
+      "personality_with_minimal_features",
+      "one_primary_memory_hook",
+      "designed_for_3d_merchandise",
+      "approachable_but_not_generic",
+      "allow_one_restrained_element_of_contrast_weirdness_or_imperfection"
+    ]
+  },
+  "shape_system": {
+    "dominant_mass": [
+      "sphere",
+      "oval",
+      "rounded_cube",
+      "soft_triangle",
+      "star",
+      "soft_irregular_blob"
+    ],
+    "dominant_mass_visual_share": "typically approximately 55-85 percent",
+    "body_structure": [
+      "head_body_fusion",
+      "compact_separate_head_and_torso",
+      "head_dominant_body",
+      "balanced_head_and_torso",
+      "two_interlocking_masses_with_one_visual_dominant",
+      "wrapped_or_shell_like_body",
+      "object_or_natural_form_used_directly_as_body",
+      "species_specific_animal_mass_relationship",
+      "limbs_integrated_into_main_silhouette",
+      "compact_sitting_or_crouching_posture",
+      "highly_simplified_compact_quadruped",
+      "graphic_long_limb_structure",
+      "paired_or_family_system_with_shared_visual_grammar"
+    ],
+    "structure_selection": {
+      "high_frequency": [
+        "head_body_fusion",
+        "head_dominant_body",
+        "single_dominant_mass"
+      ],
+      "alternative_structures_are_encouraged": true,
+      "rule": "Derive the structure from the character concept, preserve simple large relationships and toy-like readability, and never treat the high-frequency structure as a mandatory template or a component menu."
+    },
+    "limbs": [
+      "small_relative_to_main_mass",
+      "structurally_simple",
+      "hidden_or_omitted",
+      "integrated_into_body_outline",
+      "feet_attached_directly_to_body",
+      "short_column_legs",
+      "graphically_elongated_legs",
+      "paired_base_or_seated_support",
+      "fin_or_wing_like_arms",
+      "moderately_extended_simplified_arms",
+      "long_hanging_or_raised_graphic_arms",
+      "asymmetric_single_action_arm",
+      "compact_simplified_quadruped"
+    ],
+    "limb_rules": [
+      "do_not_default_every_character_to_four_identical_short_rounded_limbs",
+      "limb_length_visibility_and_gesture_may_vary_from_hidden_to_graphically_long",
+      "limbs_may_support_silhouette_identity_without_competing_with_the_primary_hook",
+      "pose_may_be_standing_sitting_running_jumping_tilting_hugging_hovering_or_prop_interaction_when_personality_driven",
+      "avoid_realistic_joints_hands_fingers_or_animal_anatomy"
+    ],
+    "multi_proposal_diversity": {
+      "fixed_structure_coverage_quota": false,
+      "fixed_slot_roles": false,
+      "similar_variants_allowed": true,
+      "difference_level": "moderate_not_radical",
+      "high_frequency_meaning": "weighted_tendency_across_requests_not_a_required_first_direction",
+      "selection_rule": "Recompose each set from fresh character concepts; do not mechanically assign one structure family to each proposal.",
+      "ordering_rule": "Shuffle presentation order after concepts are complete; direction number carries no baseline_to_experimental meaning.",
+      "decoupling_rule": "Do not repeatedly bind a body structure to the same limb treatment expression personality or proposal number.",
+      "conversation_memory_rule": "When recent outputs are visible, avoid repeating their proposal_number_to_structure_to_expression mapping.",
+      "repetition_rule": "Reject a repeated full body-face-pose template, but do not impose numeric component coverage."
+    },
+    "proportion_rules": [
+      "compact_and_stable",
+      "wide_squat_and_compact_are_frequent_but_not_default",
+      "tall_narrow_or_long_limb_proportions_are_allowed_when_graphically_simplified",
+      "no_fixed_head_to_body_ratio",
+      "preserve_toy_like_weight_distribution"
+    ]
+  },
+  "silhouette_rules": {
+    "requirements": [
+      "readable_at_icon_size",
+      "recognizable_as_a_flat_silhouette",
+      "one_primary_outline_hook",
+      "softened_edges_even_when_using_points"
+    ],
+    "hook_examples": [
+      "oversized_ears",
+      "top_spike",
+      "star_outline",
+      "rounded_square_head",
+      "hood",
+      "fruit_stem",
+      "distinctive_hair_mass"
+    ],
+    "max_primary_hooks": 1,
+    "max_secondary_hooks": 1
+  },
+  "character_origins": [
+    "redesigned_animal",
+    "anthropomorphic_object",
+    "anthropomorphic_natural_form",
+    "hybrid_creature",
+    "abstract_personality_carrier"
+  ],
+  "species_abstraction": {
+    "default_mode": "style_bible_first_stable_recognition",
+    "style_priority": "mass_before_anatomy_silhouette_before_detail_toy_like_before_realistic",
+    "abstract_exploration_requires_explicit_user_opt_in": true,
+    "recognition_cue_count": {
+      "style_bible_first_stable_recognition": "retain_2_to_3_strong_mutually_supporting_cues_without_reconstructing_full_real_anatomy",
+      "abstract_exploration": "retain_enough_cues_to_remain_immediately_recognizable"
+    },
+    "possible_cues": [
+      "ear_position_and_direction",
+      "muzzle_or_nose_relationship",
+      "head_neck_silhouette",
+      "coat_or_large_color_block_relationship",
+      "tail",
+      "species_specific_gesture_or_posture"
+    ],
+    "rules": [
+      "species_must_remain_readable_without_explanatory_text",
+      "default_first_round_must_keep_one_or_two_dominant_toy_like_masses",
+      "species_recognition_should_come_from_selected_cues_not_anatomical_completeness",
+      "simplification_must_not_delete_cues_needed_for_recognition",
+      "muzzle_or_nose_relationship_may_be_simplified_but_should_be_retained_when_needed_for_recognition",
+      "do_not_reuse_one_generic_animal_face_and_only_swap_ears_horns_or_color",
+      "do_not_apply_a_fixed_ear_muzzle_or_body_formula_to_common_species",
+      "observe_each_species_distinctive_relationships_then_select_merge_or_amplify_two_or_three_cues",
+      "if_removing_ears_or_horns_makes_two_species_nearly_identical_redesign_the_head_silhouette_or_facial_relationship",
+      "reject_first_round_forms_that_read_as_unknown_blobs_containers_symbols_or_another_species",
+      "reject_realistic_pet_body_chest_abdomen_joint_paw_or_quadruped_proportions",
+      "stable_recognition_means_less_aggressive_morphological_abstraction_not_more_realistic_anatomy",
+      "nonliteral_color_does_not_by_itself_make_the_morphology_abstract"
+    ],
+    "species_specific_template": "none; infer distinctive cue relationships for the requested species instead of reusing bear sheep or dog formulas",
+    "abstract_operations_allowed_after_opt_in": [
+      "subtraction",
+      "merging",
+      "flattening",
+      "notch",
+      "negative_space",
+      "silhouette_protrusion",
+      "nonliteral_mass_relationship"
+    ],
+    "post_delivery_question": "After delivering Style-Bible-first stable-recognition concepts, ask whether the user wants a more morphologically abstract exploratory set."
+  },
+  "face_system": {
+    "feature_count": "typically 3-6 simple graphic elements",
+    "eye_system_distribution": {
+      "no_sclera_simple_eyes": 0.65,
+      "graphic_sclera_eyes": 0.35,
+      "measurement_window": "newest_8_accepted_characters_as_soft_context_for_the_planned_batch",
+      "three_proposal_batches_allowed": [
+        "3_without_sclera_and_0_with_sclera",
+        "2_without_sclera_and_1_with_sclera",
+        "1_without_sclera_and_2_with_sclera"
+      ],
+      "interpretation": "Use the rolling history as a soft long-run preference; do not force every three-image batch into the same 2-to-1 pattern or reject the best-fitting face to satisfy a ratio."
+    },
+    "facial_signature_system": {
+      "signature_fields": [
+        "eye_family_id",
+        "eye_scale_and_spacing",
+        "facial_zone_id",
+        "brow_eye_relationship",
+        "nose_muzzle_id",
+        "mouth_family_id",
+        "primary_expression"
+      ],
+      "within_set_rules": {
+        "three_proposals": "use_three_distinct_eye_ids_and_three_distinct_complete_signatures",
+        "five_proposals": "use_five_distinct_eye_construction_families_and_five_distinct_complete_signatures",
+        "same_eye_family_maximum": 1,
+        "same_nose_mouth_pair_maximum": 1,
+        "same_mouth_family_maximum_for_five": 2,
+        "same_complete_signature_maximum": 1,
+        "minimum_pairwise_signature_dimensions_of_difference": 3,
+        "three_proposal_overselected_eye_pool": {
+          "ids": [
+            "NS01",
+            "NS02",
+            "GS01"
+          ],
+          "combined_maximum": 1
+        },
+        "three_proposal_overselected_mouth_pool": {
+          "ids": [
+            "M01",
+            "M06"
+          ],
+          "combined_maximum": 1
+        },
+        "three_proposal_overselected_nose_mouth_group": {
+          "group_id": "PG01",
+          "description": "rounded_or_integrated_dark_nose_connected_to_a_symmetric_shallow_w_animal_mouth",
+          "equivalent_pairs": [
+            "NM03+M04",
+            "NM05+M04"
+          ],
+          "combined_maximum": 1
+        },
+        "not_counted_as_new_signature": [
+          "pupil_direction_only",
+          "brow_angle_only",
+          "mouth_corner_direction_only",
+          "eye_position_jitter",
+          "color_change_only"
+        ]
+      },
+      "recent_usage_guidance": {
+        "source": "state/facial-usage-history.json",
+        "lookback": "newest_8_accepted_characters",
+        "mode": "soft_preference_not_prohibition",
+        "exact_signature": "deprioritize_when_an_equally_suitable_alternative_exists",
+        "construction_family": "deprioritize_recently_frequent_eye_ids_when_equally_suitable_alternatives_exist",
+        "nose_mouth_pair": "deprioritize_recently_frequent_nose_mouth_pairs_when_equally_suitable_alternatives_exist",
+        "reuse_rule": "reuse_is_allowed_whenever_species_brand_or_character_truth_makes_the_face_the_strongest_choice"
+      },
+      "selection_rule": "Build the complete facial signature from character truth species facial relationship and personality before prompting; do not assemble random facial symbols merely to satisfy diversity.",
+      "failure_rule": "If distinct planned signatures converge into the same dot-eye oval-eye capsule-eye short-line-mouth or rounded-nose-plus-symmetric-W-mouth face, treat this as model fallback and regenerate."
+    },
+    "canonical_eye_families": {
+      "NS01": "micro_dot",
+      "NS02": "horizontal_capsule",
+      "NS03": "short_heavy_line",
+      "NS04": "closed_arc",
+      "NS05": "squeezed_chevron_symbol",
+      "NS06": "one_open_one_closed_wink",
+      "NS07": "reverse_color_graphic_eye",
+      "NS08": "merged_brow_and_lid_symbol",
+      "GS01": "round_sclera_with_small_solid_pupil",
+      "GS02": "vertical_capsule_sclera",
+      "GS03": "hollow_ring_eye",
+      "GS04": "half_lidded_horizontal_sclera",
+      "GS05": "shared_horizontal_eye_band",
+      "GS06": "narrow_geometric_sclera",
+      "GS07": "controlled_asymmetric_sclera_layout"
+    },
+    "eye_catalog_metadata": {
+      "source": "observed_in_the_52_image_complete_brand_mascot_reference_set",
+      "adaptation_rule": "Reference examples that contain highlights contribute construction only; remove all highlights in generated outputs."
+    },
+    "canonical_mouth_families": {
+      "M00": "no_mouth",
+      "M01": "short_neutral_line",
+      "M02": "tiny_o",
+      "M03": "shallow_u",
+      "M04": "shallow_w",
+      "M05": "vertical_open_mouth",
+      "M06": "restrained_smile",
+      "M07": "slight_pout",
+      "M08": "subtle_asymmetric_curve",
+      "M09": "restrained_tongue"
+    },
+    "canonical_nose_muzzle_families": {
+      "NM00": "none",
+      "NM01": "tiny_point_nose",
+      "NM02": "short_capsule_nose",
+      "NM03": "rounded_triangle_nose",
+      "NM04": "small_protruding_soft_muzzle",
+      "NM05": "integrated_nose_mouth_line"
+    },
+    "canonical_facial_zones": {
+      "Z01": "tiny_central_cluster",
+      "Z02": "controlled_low_set_zone",
+      "Z03": "controlled_high_set_zone",
+      "Z04": "wide_spaced_zone",
+      "Z05": "narrow_spaced_zone",
+      "Z06": "horizontal_eye_band_zone",
+      "Z07": "simple_face_panel",
+      "Z08": "reverse_color_features_on_dark_body"
+    },
+    "eye_surface": {
+      "finish": "flat_matte",
+      "catchlight": false,
+      "white_reflection_dot": false,
+      "glossy_highlight": false,
+      "glass_eye_effect": false
+    },
+    "eye_states": [
+      "open",
+      "half_closed",
+      "closed"
+    ],
+    "brow_options": [
+      "none",
+      "short_flat",
+      "soft_arch",
+      "slightly_raised",
+      "slightly_lowered"
+    ],
+    "rules": [
+      "large_eyes_are_optional_not_default",
+      "dot_eyes_are_optional_not_default",
+      "features_are_clustered",
+      "preserve_generous_negative_space",
+      "expression_remains_readable_when_reduced",
+      "nose_is_optional",
+      "facial_alignment_and_gaze_must_be_intentional_and_coherent",
+      "select_one_primary_expression_per_concept",
+      "do_not_create_diversity_through_malformed_or_randomly_misaligned_features"
+    ],
+    "personality_range": [
+      "bright",
+      "alert",
+      "innocent",
+      "shy",
+      "confident",
+      "calm",
+      "excited",
+      "surprised",
+      "focused",
+      "proud",
+      "mischievous",
+      "skeptical",
+      "confused",
+      "content",
+      "blank",
+      "sleepy",
+      "awkward",
+      "grumpy",
+      "aloof",
+      "curious",
+      "gentle",
+      "playfully_strange"
+    ],
+    "expression_families": {
+      "bright_clever": "open oval or curved eyes plus a restrained upward mouth",
+      "innocent_curious": "moderately open eyes plus a tiny o or short curved mouth",
+      "excited_expectant": "open simple eyes plus a restrained upward mouth without an exaggerated toothy grin",
+      "surprised_confused": "open eyes plus a tiny o mouth or restrained uneven brow heights",
+      "focused_serious": "steady gaze plus flat or slightly lowered brows and a neutral short mouth",
+      "proud_mischievous": "steady or side gaze plus one lightly raised brow and a subtly asymmetric mouth",
+      "skeptical_observant": "controlled gaze offset plus one restrained brow change without crossed eyes",
+      "content_at_ease": "curved or naturally open eyes plus a very shallow smile that does not default to sleepiness",
+      "shouting_effort": "squeezed symbol or closed eyes plus a small vertical open mouth",
+      "cool_skeptical": "half-lidded horizontal sclera or flat eyes plus a short flat mouth and coherent gaze",
+      "blank_shock": "round ring or vertical capsule eyes plus a short line or tiny o mouth",
+      "playful_wink": "one open and one closed eye plus an offset short mouth or restrained tongue",
+      "determined_grumpy": "narrow geometric sclera plus angled brows and a very short mouth without realistic aggression",
+      "shy_gentle": "slight side gaze plus a restrained small mouth",
+      "confident_aloof": "steady gaze plus one lightly raised brow or a short flat mouth",
+      "blank_good_natured": "simple open eyes plus a tiny nose and short mouth",
+      "calm_relaxed": "naturally open or curved eyes plus a neutral mouth",
+      "sleepy_resigned": "half-closed eyes plus a flat or slightly downturned mouth",
+      "controlled_playful_strange": "one restrained unusual facial relationship without distortion"
+    },
+    "preferred_contrast": "approachable_base_plus_one_lower_intensity_secondary_trait_selected_from_positive_neutral_negative_or_playfully_strange; negative_or_sleepy_is_optional_not_default",
+    "multi_proposal_expression_diversity": {
+      "for_three_proposals": "use_three_different_primary_expression_families",
+      "max_sleepy_or_downcast_without_explicit_user_request": 1,
+      "do_not_repeat": "the_same_eye_state_plus_brow_treatment_plus_mouth_shape_combination",
+      "difference_level": "clear_but_restrained",
+      "eye_system_mix": "use_the_newest_8_accepted_characters_as_soft_context_for_an_approximately_65_percent_no_sclera_and_35_percent_with_sclera_long_run_tendency_not_as_a_batch_quota",
+      "construction_rule": "Do not reuse the same eye mold and vary only pupil direction or brow angle; use one distinct canonical eye ID and one distinct complete facial signature per proposal.",
+      "pre_prompt_check": "Read state/facial-usage-history.json, create a canonical-ID facial signature table, reject within-set duplicates and overselected-pool violations, and use recent frequency only to break ties between equally suitable faces.",
+      "visual_acceptance_rule": "At reduced size, every face must read as a different designed grammar rather than one generic face with changed species ears color or expression."
+    }
+  },
+  "color_system": {
+    "primary_rule": "simple color relationships rather than a mandatory low-saturation palette",
+    "dominant_color_count": 1,
+    "default_mode": "recognition_stable_color_open",
+    "nonliteral_full_body_color_allowed_in_first_round": true,
+    "nonliteral_color_requires_one_clear_rationale": true,
+    "allowed_rationales": [
+      "brand_asset",
+      "personality",
+      "character_concept",
+      "usage_scene",
+      "material_relationship"
+    ],
+    "dominant_color_sources": {
+      "first_round": [
+        "natural_color",
+        "transformed_natural_color",
+        "brand_color",
+        "personality",
+        "character_concept",
+        "usage_scene",
+        "material",
+        "rationalized_nonliteral_color"
+      ]
+    },
+    "palette_strategies": {
+      "first_round": [
+        "natural_or_transformed_natural_tonal_variation",
+        "one_brand_or_concept_led_dominant_plus_one_necessary_neutral",
+        "two_large_clean_color_blocks",
+        "black_white_gray_or_value_inversion",
+        "single_nonliteral_hue_with_tonal_variation",
+        "high_saturation_single_dominant_with_restrained_support"
+      ]
+    },
+    "supporting_color_count": "0-2",
+    "accent_color": {
+      "default": "none",
+      "optional": true,
+      "allowed_reasons": [
+        "brand_asset",
+        "character_concept",
+        "functional_distinction",
+        "material_relationship",
+        "structural_clarity"
+      ],
+      "rule": "Omit the accent when its presence cannot be explained in one sentence."
+    },
+    "allowed_saturation": [
+      "high_saturation",
+      "pastel",
+      "neutral",
+      "black_and_white"
+    ],
+    "species_recognition_rule": "Species must remain readable through silhouette facial relationship coat mass tail posture or other selected cues; color is not the sole recognition device.",
+    "multi_proposal_palette_rule": "A set may mix natural transformed-natural brand-led and concept-led palettes or develop one brand palette across several relationships; use no fixed color slots.",
+    "avoid": [
+      "busy_multicolor_patterns",
+      "uncontrolled_gradients",
+      "fragmented_color_blocking",
+      "decorative_accent_without_brand_concept_function_material_or_structure_reason",
+      "adding_blue_yellow_or_other_accent_only_to_create_variety",
+      "defaulting_every_sheep_to_white_plus_muted_support",
+      "defaulting_every_bear_to_brown_or_beige",
+      "using_literal_species_color_as_the_only_recognition_device",
+      "using_nonliteral_color_without_a_clear_rationale",
+      "confusing_high_saturation_with_busy_multicolor_design"
+    ]
+  },
+  "material_system": {
+    "preferred": [
+      "matte_vinyl",
+      "soft_touch_plastic",
+      "subtle_flocking",
+      "plush",
+      "smooth_plastic"
+    ],
+    "surface_rules": [
+      "clean_large_surfaces",
+      "soft_highlights",
+      "rounded_edges",
+      "tactile_collectible_quality",
+      "fuzzy_flocked_or_plush_may_be_the_primary_tactile_hook",
+      "use_one_dominant_material_per_character",
+      "mix_materials_only_to_separate_one_necessary_region_or_accessory"
+    ],
+    "avoid": [
+      "realistic_skin",
+      "realistic_fur_detail",
+      "complex_metal_mechanics",
+      "surface_noise"
+    ]
+  },
+  "presentation": {
+    "views": [
+      "front",
+      "slight_three_quarter"
+    ],
+    "default_background": "near_white_clean_neutral_gray_approximately_F7F8F8",
+    "backgrounds": [
+      "near_white_clean_neutral_gray_that_reads_white_at_first_glance",
+      "only_subtly_deeper_near_white_neutral_gray_for_white_or_pale_characters",
+      "explicit_user_requested_brand_scene"
+    ],
+    "lighting": "soft_studio",
+    "background_color_temperature": "neutral_not_warm",
+    "background_shadow": "barely_visible_neutral_contact_shadow",
+    "background_override_rule": "Use another background only when the user explicitly requests a specific color, brand scene or transparent output.",
+    "background_avoid": [
+      "cream",
+      "beige",
+      "ivory",
+      "warm_yellow",
+      "sepia",
+      "dirty_off_white",
+      "muddy_gray",
+      "visibly_medium_or_dark_gray",
+      "warm_background_color_cast"
+    ],
+    "contrast_rule": "Maintain clear character separation with only a subtle near-white neutral-gray lightness shift rather than adding warmth or a visibly gray field.",
+    "family_presentation_rule": "When showing partners or a character family, use clear scale pose and gaze relationships while keeping the scene graphically simple."
+  },
+  "brand_translation": {
+    "required": [
+      "extract_one_shapeable_brand_concept",
+      "embed_brand_meaning_in_shape_or_signature_feature",
+      "integrate_brand_color_as_a_system",
+      "align_personality_contrast_with_brand_values",
+      "validate_icon_full_body_sticker_and_figure_scales",
+      "for_character_families_share_facial_material_and_color_grammar_but_vary_mass_origin_pose_and_personality"
+    ],
+    "warning": "Do not rely on logo placement alone to create brand ownership."
+  },
+  "accessory_clothing_system": {
+    "first_round_default": "none_or_one_simple_concept_driven_item",
+    "first_round_policy": "A simple accessory or garment may appear in the first round when naturally derived from identity behavior brand or use scene.",
+    "additional_round_policy": "Additional directions may also use one simple item, but accessories are neither reserved for later rounds nor mandatory.",
+    "fixed_usage_quota": false,
+    "max_primary_item_count": 1,
+    "max_weak_supporting_detail_count": 1,
+    "preferred_simple_items": [
+      "soft_hat",
+      "beanie",
+      "single_layer_hood",
+      "scarf",
+      "neckerchief",
+      "collar",
+      "single_panel_vest",
+      "simple_top",
+      "bib",
+      "simplified_overall_front_panel",
+      "small_bag",
+      "graphic_glasses",
+      "highly_simplified_headphones"
+    ],
+    "required_rationales": [
+      "character_identity",
+      "occupation_or_role",
+      "personality",
+      "behavior",
+      "brand",
+      "usage_scene"
+    ],
+    "design_rules": [
+      "one_clear_geometric_or_silhouette_shape",
+      "minimal_construction_lines",
+      "use_existing_character_palette_unless_new_color_has_explicit_reason",
+      "do_not_cover_primary_face_or_species_cues",
+      "maintain_icon_size_readability",
+      "character_remains_recognizable_and_personable_when_item_is_removed",
+      "accessory_may_be_primary_hook_but_must_not_compete_with_another_primary_hook",
+      "pure_character_and_accessorized_directions_may_mix_without_a_fixed_ratio"
+    ],
+    "avoid": [
+      "complex_uniform_or_formalwear",
+      "layered_streetwear",
+      "multiple_competing_accessories",
+      "dense_patterns",
+      "many_pockets_buckles_straps_or_metal_parts",
+      "realistic_tailoring_folds_laces_or_hardware",
+      "large_text_or_unprovided_logo",
+      "decoration_without_character_or_brand_rationale"
+    ]
+  },
+  "extension_board_system": {
+    "trigger": [
+      "帮我延展",
+      "expression_action_extension",
+      "character_extension_board"
+    ],
+    "default_sheet_count": 1,
+    "default_content": {
+      "enlarged_hero_count": 1,
+      "expression_action_variant_count": 6,
+      "orientation": "landscape",
+      "spatial_split": "hero_on_one_side_variants_on_the_other",
+      "preferred_composition": "large_english_title_and_hero_in_left_half_variants_in_right_half"
+    },
+    "default_interaction": "Do not ask preliminary questions when the selected source character is clear.",
+    "identity_lock": [
+      "dominant_silhouette",
+      "proportions",
+      "head_and_ear_geometry",
+      "facial_grammar",
+      "palette",
+      "material",
+      "signature_feature",
+      "rendering_style"
+    ],
+    "variant_dimensions": [
+      "facial_emotion",
+      "gaze",
+      "mouth",
+      "body_tilt_or_squash",
+      "ear_behavior",
+      "tail_behavior",
+      "only_necessary_simplified_limbs"
+    ],
+    "art_direction": {
+      "persona": "young_contemporary_korean_graphic_designer",
+      "qualities": [
+        "youthful",
+        "fashion_aware",
+        "clean",
+        "strong_hierarchy",
+        "disciplined_column_and_row_grid",
+        "generous_negative_space",
+        "concise_custom_typography"
+      ],
+      "allowed_layout_systems": [
+        "left_large_title_and_hero_right_2x3_variant_grid",
+        "right_hero_left_modular_variant_grid",
+        "unequal_landscape_columns_with_shared_alignment_axes"
+      ],
+      "grid_rules": [
+        "shared_alignment_axes",
+        "especially_generous_safe_margins_on_all_four_sides",
+        "no_title_or_character_close_to_canvas_edges",
+        "consistent_gutters",
+        "comfortable_internal_spacing",
+        "no_random_scattering",
+        "no_crowding",
+        "no_arbitrary_overlap"
+      ]
+    },
+    "typography": {
+      "use_user_copy_verbatim": true,
+      "fallback_working_titles": [
+        "MOOD SET",
+        "CHARACTER DESIGN",
+        "EXPRESSIONS"
+      ],
+      "allow_numbered_variant_labels": false,
+      "allowed_microcopy": [
+        "MOOD SET",
+        "CHARACTER DESIGN",
+        "EXPRESSIONS"
+      ],
+      "display_title": {
+        "enabled": true,
+        "language": "english",
+        "default_position": "left_half",
+        "scale": "large",
+        "rules": [
+          "align_with_hero_field",
+          "prominent_but_does_not_crowd_hero",
+          "use_one_display_title_only"
+        ]
+      },
+      "rules": [
+        "sparse_copy",
+        "small_english_microcopy",
+        "restrained_symbols_only",
+        "clear_size_weight_spacing_and_alignment_hierarchy",
+        "verify_spelling",
+        "do_not_invent_brand_identity"
+      ]
+    },
+    "palette_rule": "Use a clean near-white neutral-gray ground that reads white at first glance by default and derive all other board colors from the locked character; do not add an unrelated accent color or an unrequested cream beige warm-yellow or muddy-gray background cast.",
+    "multiple_option_rule": "Vary layout system and typographic hierarchy while keeping character identity locked.",
+    "quality_gate": [
+      "exactly_one_hero_and_six_variants",
+      "hero_and_variants_share_one_identity",
+      "six_variants_include_both_expression_and_action_change",
+      "no_eye_highlights",
+      "no_malformed_limbs",
+      "no_garbled_or_excessive_text",
+      "typography_does_not_compete_with_character",
+      "board_has_clear_hierarchy_not_random_collage",
+      "landscape_orientation",
+      "hero_and_variants_are_in_separate_fields",
+      "no_numbered_variants",
+      "all_elements_follow_shared_grid_axes",
+      "comfortable_spacing_without_crowding"
+    ]
+  },
+  "commercial_checks": [
+    "icon_size_recognition",
+    "silhouette_recognition",
+    "front_side_back_viability",
+    "sticker_expression_extensibility",
+    "animation_joint_simplicity",
+    "collectible_figure_manufacturability"
+  ],
+  "avoid_rules": [
+    "realistic_human_or_animal_anatomy",
+    "complex_layered_clothing",
+    "many_small_accessories",
+    "accessory_without_character_or_brand_rationale",
+    "multiple_competing_memory_hooks",
+    "default_large_eyes",
+    "default_low_saturation",
+    "default_happy_smile",
+    "default_squat_blob_with_four_identical_short_limbs",
+    "default_centered_dot_eye_face",
+    "species_variants_created_only_by_swapping_ears_horns_or_color",
+    "extreme_abstraction_that_erases_species_recognition",
+    "realistic_long_limb_anatomy_or_complex_animation_character_styling",
+    "busy_texture",
+    "uncontrolled_gradient",
+    "design_that_only_works_from_the_front",
+    "direct_imitation_of_reference_characters"
+  ],
+  "generation_workflow": [
+    "define_brand_concept_role_and_personality_contrast",
+    "derive_the_whole_character_structure_from_origin_role_and_personality_without_fixed_component_slots",
+    "select_two_or_three_recognition_cues_for_animal_origins",
+    "define_one_primary_memory_hook",
+    "read_newest_8_facial_usage_history_as_soft_frequency_context",
+    "assign_one_canonical_complete_facial_signature_per_proposal",
+    "run_batch_contrast_matrix_and_high_frequency_pool_checks",
+    "build_one_rationalized_natural_brand_led_or_concept_led_dominant_color_plus_zero_to_two_supporting_colors",
+    "optionally_select_one_simple_character_driven_accessory_or_garment_in_any_round",
+    "vary_structure_face_pose_palette_and_hook_without_fixed_proposal_roles_then_shuffle_presentation_order",
+    "compile_one_precise_positive_prompt_and_direction_specific_fallback_negatives_per_proposal_without_option_menus",
+    "render_with_toy_like_material",
+    "evaluate_at_icon_sticker_animation_and_figure_scales",
+    "append_only_accepted_facial_signatures_and_keep_the_newest_8_history_entries"
+  ]
+}

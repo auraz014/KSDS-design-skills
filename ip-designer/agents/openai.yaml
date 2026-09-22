@@ -1,0 +1,4 @@
+interface:
+  display_name: "品牌IP设计师"
+  short_description: "生成、优化并延展商业品牌 IP 角色形象"
+  default_prompt: "使用 $ip-designer 根据我的描述先给出三个简短 IP 文字方案；如果信息过少，只询问一次品牌定位和希望融入的品牌线索，并明确告诉我也可以自由发挥；我选择后直接生图。"
