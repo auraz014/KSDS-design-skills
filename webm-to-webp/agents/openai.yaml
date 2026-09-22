@@ -1,0 +1,4 @@
+interface:
+  display_name: "WebM 转 WebP"
+  short_description: "将 WebM 动效转换为 WebP，保留原有透明度并验证循环次数"
+  default_prompt: "使用 $webm-to-webp 将我的 WebM 动效转换为 WebP，在保留画质的前提下优化体积，并按指定次数循环。"
